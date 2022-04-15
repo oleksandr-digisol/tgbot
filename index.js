@@ -21,7 +21,7 @@ let sheet;
 }());
 
 const report = Markup.inlineKeyboard([
-    [Markup.button.callback('Переміщення вийськової техніки', 'troops')],
+    [Markup.button.callback('Переміщення військової техніки', 'troops')],
     [Markup.button.callback('Злочини проти мирного населення', 'crime')],
     [Markup.button.callback('Інша інформація', 'another')],
 ]);
