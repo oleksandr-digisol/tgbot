@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const bot = new Telegraf(process.env.TOKEN);
 const userAnswers = {};
-const id = '1CA2REYgYQCe0iMfAlJNCiNLGFHfiKh78wYA9DLyjtyY';
+const id = process.env.TABLE_ID;
 let sheet;
 
 (async function() {
